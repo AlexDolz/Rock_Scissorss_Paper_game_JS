@@ -1,40 +1,14 @@
-@media (max-width: 376px) {
-  h2 {
-    font-size: 25px;
-    text-align: center;
-  }
-  p {
-    font-size: 20px;
-  }
-  #result_img {
-    width: 82%;
-  }
-  #cup_move,
-  #player_move {
-    width: 100px;
-    height: 95px;
-  }
-  .title_img {
-    max-width: 100%;
-    height: 200px;
-    margin-top: 15px;
-  }
-  .choice_container {
-    padding: 2px;
-    gap: 45px;
-  }
-}
 @media (max-width: 668px) {
   h2 {
     display: none;
+  }
+  p {
+    font-size: 15px;
   }
   .title_img {
     max-width: 200px;
     height: 100px;
     margin-top: 0;
-  }
-  p {
-    font-size: 15px;
   }
   .game_body {
     gap: 5px;
@@ -45,7 +19,42 @@
   }
   #cup_move,
   #player_move {
-    width: 40%;
-    height: 76%;
+    width: 45%;
+    height: 77%;
   }
-} ;
+}
+
+@media (max-width: 376px) {
+  h2 {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+  }
+  .title_img {
+    max-width: 100%;
+    height: 200px;
+    margin-top: 15px;
+  }
+  .game_body {
+    height: 100vh;
+    gap: 20px;
+  }
+  .result_container {
+    height: 145px;
+  }
+  #cup_move,
+  #player_move {
+    width: 100px;
+    height: 95px;
+  }
+  #result_img {
+    width: 100%;
+  }
+  .choice_container {
+    padding: 2px;
+    gap: 45px;
+  }
+}
