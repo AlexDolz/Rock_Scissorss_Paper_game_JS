@@ -24,7 +24,7 @@
     gap: 45px;
   }
 }
-@media all and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   h2 {
     display: none;
   }
