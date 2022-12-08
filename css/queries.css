@@ -1,0 +1,21 @@
+@media (max-width: 376px) {
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+  }
+  #result_img {
+    width: 82%;
+  }
+  #cup_move,
+  #player_move {
+    width: 100px;
+    height: 95px;
+  }
+  .title_img {
+    max-width: 375px;
+    height: 200px;
+  }
+}
