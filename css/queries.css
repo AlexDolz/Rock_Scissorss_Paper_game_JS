@@ -1,4 +1,4 @@
-@media all and (orientation: portrait) {
+@media (max-width: 376px) {
   h2 {
     font-size: 25px;
     text-align: center;
@@ -24,7 +24,7 @@
     gap: 45px;
   }
 }
-/* @media screen and (orientation: landscape) {
+/* @media (max-width: 668px) {
   h2 {
     display: none;
   }
@@ -38,5 +38,9 @@
   }
   .game_body {
     gap: 5px;
+    height: 100%;
+  }
+  .result_container {
+    height: 87px;
   }
 } ; */

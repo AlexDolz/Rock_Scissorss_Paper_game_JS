@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Zen Dots', cursive;
+  overflow-y: hidden;
 }
 
 .game_body {
@@ -104,7 +105,7 @@ p {
 }
 
 .gif_img_container {
-  width: 48%;
+  width: 42%;
   display: flex;
   justify-content: center;
   align-items: center;
