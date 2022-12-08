@@ -20,6 +20,7 @@
     margin-top: 15px;
   }
   .choice_container {
-    padding: 0;
+    padding: 2px;
+    gap: 45px;
   }
 }
