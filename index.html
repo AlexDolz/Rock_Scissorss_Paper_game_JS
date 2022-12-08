@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rock_Scissors_Paper</title>
+  </head>
+  <body>
+    <section class="game_body">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/000/691/497/original/rock-paper-scissors-neon-icons-vector.jpg"
+        alt="title img"
+        class="title_img"
+      />
+
+      <h2>Let's play a game "Rock-Scissors-Paper"</h2>
+      <p>Make your choice</p>
+      <div class="choice_container">
+        <img
+          src="./img/rock.png"
+          class="choice_img rock_active"
+          id="rock"
+          alt="rock"
+        />
+        <img
+          src="./img/scissors.png"
+          class="choice_img scissors_active"
+          id="scissors"
+          alt="scissors"
+        />
+        <img
+          src="./img/paper.png"
+          class="choice_img paper_active"
+          id="paper"
+          alt="paper"
+        />
+      </div>
+      <button id="start">Play</button>
+
+      <div class="result_container">
+        <div class="cup_result">
+          <p class="cup_text">CUP</p>
+          <img
+            id="cup_move"
+            src="./img/rock-paper-scissors.png"
+            alt="rock_paper_scissors"
+          />
+        </div>
+
+        <div class="gif_img_container">
+          <img id="result_img" src="" alt="result img" />
+          <div
+            class="tenor-gif-embed gif_hide"
+            data-postid="17007823"
+            data-share-method="host"
+            data-aspect-ratio="1.78771"
+            data-width="100%"
+          >
+            <a
+              href="https://tenor.com/view/321-count-down-rock-paper-scissors-winner-mr-beast-gif-17007823"
+              >321 Count Down GIF</a
+            >from <a href="https://tenor.com/search/321-gifs">321 GIFs</a>
+          </div>
+        </div>
+        <script
+          type="text/javascript"
+          async
+          src="https://tenor.com/embed.js"
+        ></script>
+
+        <div class="player_result">
+          <p class="player_text">Player</p>
+          <img
+            id="player_move"
+            src="./img/rock-paper-scissors.png"
+            alt="rock_paper_scissors"
+          />
+        </div>
+      </div>
+    </section>
+    <audio id="lose_audio" src="./audio/lose_audio.wav"></audio>
+    <audio id="win_audio" src="./audio/win_audio.wav"></audio>
+    <audio id="draw_audio" src="./audio/draw_audio.wav"></audio>
+    <script src="./rock_paper_scissors.js"></script>
+  </body>
+</html>
