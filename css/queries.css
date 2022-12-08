@@ -24,7 +24,7 @@
     gap: 45px;
   }
 }
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   h2 {
     display: none;
   }
@@ -39,4 +39,4 @@
   .game_body {
     gap: 5px;
   }
-} ;
+} ; */
