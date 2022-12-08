@@ -15,7 +15,11 @@
     height: 95px;
   }
   .title_img {
-    max-width: 375px;
+    max-width: 100%;
     height: 200px;
+    margin-top: 15px;
+  }
+  .choice_container {
+    padding: 0;
   }
 }
