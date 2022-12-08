@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+@media all and (orientation: portrait) {
   h2 {
     font-size: 25px;
     text-align: center;
@@ -24,7 +24,7 @@
     gap: 45px;
   }
 }
-@media (max-width: 667px) and (max-height: 396px) {
+@media all and (orientation: landscape) {
   h2 {
     display: none;
   }
