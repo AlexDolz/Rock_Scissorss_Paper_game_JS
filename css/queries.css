@@ -1,4 +1,4 @@
-@media (max-width: 668px) {
+@media (max-width: 784px) {
   h2 {
     display: none;
   }
@@ -12,7 +12,6 @@
   }
   .game_body {
     gap: 5px;
-    height: 100%;
   }
   .result_container {
     height: 87px;
