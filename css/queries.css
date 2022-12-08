@@ -24,3 +24,19 @@
     gap: 45px;
   }
 }
+@media (max-width: 667px) and (max-height: 376px) {
+  h2 {
+    display: none;
+  }
+  .title_img {
+    max-width: 200px;
+    height: 100px;
+    margin-top: 0;
+  }
+  p {
+    font-size: 15px;
+  }
+  .game_body {
+    gap: 5px;
+  }
+} ;
