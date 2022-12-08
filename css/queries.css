@@ -24,7 +24,7 @@
     gap: 45px;
   }
 }
-@media (max-width: 667px) and (max-height: 366px) {
+@media (max-width: 667px) and (max-height: 326px) {
   h2 {
     display: none;
   }
