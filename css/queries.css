@@ -1,6 +1,6 @@
 @media (max-width: 784px) {
   h2 {
-    font-size: 18px;
+    display: none;
   }
   p {
     font-size: 15px;
@@ -21,6 +21,12 @@
   #player_move {
     width: 45%;
     height: 77%;
+  }
+  .gif_img_container {
+    width: 20%;
+  }
+  .choice_container {
+    padding: 5px;
   }
 }
 
@@ -56,5 +62,8 @@
   .choice_container {
     padding: 2px;
     gap: 45px;
+  }
+  .gif_img_container {
+    width: 55%;
   }
 }
