@@ -25,6 +25,7 @@ rock.addEventListener('click', () => {
   gif.classList.remove('gif_hide');
   cupMoveImg.src = `img/rock-paper-scissors.png`;
   playerMoveImg.src = `img/rock-paper-scissors.png`;
+  playerMoveImg.style.transform = 'scaleX(1)';
   if (imgResult.src !== '') {
     imgResult.remove('img_result');
     gifImgContainer.append(gif);
@@ -39,6 +40,7 @@ scissors.addEventListener('click', () => {
   gif.classList.remove('gif_hide');
   cupMoveImg.src = `img/rock-paper-scissors.png`;
   playerMoveImg.src = `img/rock-paper-scissors.png`;
+  playerMoveImg.style.transform = 'scaleX(1)';
   if (imgResult.src !== '') {
     imgResult.remove('img_result');
     gifImgContainer.append(gif);
@@ -53,6 +55,7 @@ paper.addEventListener('click', () => {
   gif.classList.remove('gif_hide');
   cupMoveImg.src = `img/rock-paper-scissors.png`;
   playerMoveImg.src = `img/rock-paper-scissors.png`;
+  playerMoveImg.style.transform = 'scaleX(1)';
   if (imgResult.src !== '') {
     imgResult.remove('img_result');
     gifImgContainer.append(gif);

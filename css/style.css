@@ -14,6 +14,7 @@
 
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
+
 .title_img {
   width: 400px;
   height: 200px;
@@ -75,10 +76,17 @@ p {
   display: flex;
   justify-content: space-between;
 }
-#cup_move,
+#cup_move {
+  width: 125px;
+  height: 113px;
+  filter: invert(130%) sepia(89%) saturate(656%) hue-rotate(305deg)
+    brightness(100%) contrast(90%);
+}
 #player_move {
   width: 125px;
   height: 113px;
+  filter: invert(130%) sepia(85%) saturate(414%) hue-rotate(157deg)
+    brightness(96%) contrast(92%);
 }
 
 .player_text {
