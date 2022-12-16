@@ -7,7 +7,6 @@
 @media (max-width: 784px) {
   .game_body {
     gap: 30px;
-    min-height: 800px;
   }
   .result_container {
     height: 132px;
@@ -39,10 +38,9 @@
     font-size: 17px;
   }
   .title_img {
-    max-width: 100%;
+    width: 100%;
   }
   .game_body {
-    height: 100vh;
     gap: 16px;
   }
   .result_container {
