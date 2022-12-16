@@ -45,6 +45,7 @@
   }
   .game_body {
     gap: 16px;
+    height: 100vh;
   }
   .result_container {
     height: 145px;
