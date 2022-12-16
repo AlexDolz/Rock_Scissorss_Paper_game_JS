@@ -33,17 +33,17 @@
 
 @media (max-width: 415px) {
   h2 {
-    font-size: 27px;
+    font-size: 21px;
   }
   p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .title_img {
     max-width: 100%;
   }
   .game_body {
     height: 100vh;
-    gap: 40px;
+    gap: 16px;
   }
   .result_container {
     height: 145px;
