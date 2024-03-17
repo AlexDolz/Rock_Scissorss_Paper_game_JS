@@ -18,6 +18,15 @@ a:active {
   outline: none;
 }
 
+body {
+  height: 100vh;
+}
+@media (any-pointer: coarse) and (orientation: landscape) {
+  body {
+    height: auto;
+  }
+}
+
 .game_body {
   height: 100vh;
   display: flex;
